@@ -1,6 +1,8 @@
-# Product Development Repository
+# AI-Assisted Product Development
 
-This is the knowledge base for a building intelligence platform for commercial real estate. It contains everything needed to define, design, and build the product — domain knowledge, personas, architecture, design system, and feature context files that drive each feature from idea to shipping.
+This is the knowledge base for the modules and features that make up a smart building platform. It is designed for AI-assisted product development — an AI agent uses the ready-made product and domain context in this repository to accelerate feature definition, design, and delivery.
+
+It contains everything needed to define, design, and build each module — domain knowledge, personas, architecture, design system, and feature context files that drive each feature from idea to shipping.
 
 The platform connects buildings — their sensors, equipment, and systems — into a graph-based digital model, then reasons over that data to detect faults, track energy performance, and surface actionable insights to facilities teams.
 
