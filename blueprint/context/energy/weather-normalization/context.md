@@ -140,9 +140,9 @@ In this feature, the Energy Manager is the primary user. They need weather-norma
 **Open design questions:**
 | Question | Owner | Due |
 |----------|-------|-----|
-| Should the portfolio ranking default to normalized EUI or raw EUI? | — | — |
-| How do we visualize confidence levels — badge, colour, icon? | — | — |
-| Should weather-insensitive buildings be hidden from normalized views or shown with a distinct marker? | — | — |
+| Should the portfolio ranking default to normalized EUI or raw EUI? | Gresa Bytyqi | — |
+| How do we visualize confidence levels — badge, colour, icon? | Gresa Bytyqi | — |
+| Should weather-insensitive buildings be hidden from normalized views or shown with a distinct marker? | Gresa Bytyqi | — |
 
 ---
 
@@ -187,10 +187,10 @@ In this feature, the Energy Manager is the primary user. They need weather-norma
 
 | Question | Owner | Due | Answer |
 |----------|-------|-----|--------|
-| Which weather data provider? | — | — | **Decided: NOAA** — free, US-only, public dataset. Global coverage deferred to future version. |
-| What regression methodology? | — | — | **Decided: ASHRAE Inverse Modeling Toolkit (IMT)** — industry standard change-point regression. |
-| How frequently should normalized EUI be recomputed? | — | — | |
-| Should we expose regression model details (R², coefficients) to the user or keep it behind the scenes? | — | — | |
+| Which weather data provider? | Endrit Gojani | — | **Decided: NOAA** — free, US-only, public dataset. Global coverage deferred to future version. |
+| What regression methodology? | Endrit Gojani | — | **Decided: ASHRAE Inverse Modeling Toolkit (IMT)** — industry standard change-point regression. |
+| How frequently should normalized EUI be recomputed? | Endrit Gojani | — | |
+| Should we expose regression model details (R², coefficients) to the user or keep it behind the scenes? | Gresa Bytyqi | — | |
 
 ---
 
@@ -207,4 +207,4 @@ In this feature, the Energy Manager is the primary user. They need weather-norma
 ## Decision log
 
 - **2026-03-10** Feature scoped.
-- **2026-03-11** Feature kickoff. Portfolio-wide focus defined. Problem, users, domain context, scope, happy path, edge cases, design principles, key screens, architecture touchpoints, and key technical decisions documented. Weather provider decided: NOAA. Regression methodology decided: ASHRAE IMT.
+- **2026-03-11** Feature kickoff. Portfolio-wide focus defined. Problem, users, domain context, scope, happy path, edge cases, design principles, key screens, architecture touchpoints, and key technical decisions documented. Weather provider decided: NOAA. Regression methodology decided: ASHRAE IMT. Owners assigned: Gresa Bytyqi (Design), Endrit Gojani (Tech Lead).

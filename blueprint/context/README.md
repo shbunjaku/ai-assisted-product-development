@@ -109,14 +109,22 @@ Context: [energy/weather-normalization/context.md](energy/weather-normalization/
 
 **1. Definition**
 - [x] Context file created
-- [ ] Problem and users documented
-- [ ] Domain terms defined inline
-- [ ] Domain constraints captured
-- [ ] Scope and non-goals set
-- [ ] Open questions have owners and due dates
-- [ ] All dependencies identified with status
+- [x] Problem and users documented
+- [x] Domain terms defined inline
+- [x] Domain constraints captured
+- [x] Scope and non-goals set
+- [x] Open questions have owners and due dates
+- [x] All dependencies identified with status
 
-**2–5.** *(begin after Definition is complete)*
+**2. Design**
+- [x] Happy path and edge cases documented
+- [x] Key screens / states identified
+- [ ] Figma linked
+- [x] Architecture touchpoints mapped
+- [ ] Cross-team review completed (if needed)
+- [ ] ADR created (if irreversible decision)
+
+**3–5.** *(begin after Design is complete)*
 
 ---
 
